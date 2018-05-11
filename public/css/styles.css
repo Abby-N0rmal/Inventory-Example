@@ -1,0 +1,110 @@
+body{
+
+  background:url("../images/backgroundThree.jpg")
+  center top fixed no-repeat , black;
+  background-size: 100%;
+}
+
+.top {
+	overflow: auto;
+	background-color: black;
+	border-bottom: 3px solid #cccccc;
+	color: white;
+}
+
+.name {
+	float: left;
+	color: white;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+#john {
+	float: left;
+	text-shadow: 2px 2px 5px grey;
+	font-family: 'Alegreya', serif;
+}
+
+#tm {
+	float: left;
+	text-shadow: 2px 2px 5px grey;
+}
+
+#space {
+	float: left;
+	color: black;
+}
+
+#invent {
+	float: left;
+	padding-top: 20px;
+}
+
+.links {
+
+	float: right;
+	color: white;
+	padding-top:  25px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	width: 250px;
+	color: white !important;
+}
+
+.bottom {
+	background-color: black;
+	color: darkgrey;
+	font-size: .75em;
+	font-weight: bold;
+	padding: 30px 0;
+	text-align: center;
+	border-top: 5px solid #666666;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+button.submit {
+  float: right;
+}
+
+form#cms {
+  margin-top: 50px;
+  left-margin: 50%;
+  color: white !important;
+  text-shadow: 2px 2px 5px grey;
+   /*background:rgba(0,0,0,0.5);*/
+}
+
+#cms textarea {
+  resize: none;
+  left-margin: 50%;
+   background:rgba(0,0,0,0.5);
+}
+
+.card {
+	 background:rgba(0,0,0,0.5);
+	 color: white !important;
+}
+
+.edit btn btn-default {
+	color: white !important;
+}
+
+.card-header button.delete,
+button.edit {
+  float: right;
+  margin: 5px;
+   background:rgba(0,0,0,0.5); 
+}

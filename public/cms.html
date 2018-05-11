@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>John McKay Custom&trade; IMS</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="top">
+    <div class="headings name">
+      <h2 id="john">John McKay Custom</h2>
+      <h3 id="tm"> &trade; </h3> 
+      <h2 id="space">_</h2>
+      <h4 id="invent">Inventory Management System</h4></div>
+    <div class="links">
+      <a href="index.html">User</a>  | <a href="portfolio.html">Login/Logout</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col-sm-2 mt-4">
+          <a class="btn btn-light" href="/blog">Back to Main</a>
+        </div>
+      </div>
+      <div class="col-md-5 offset-md-3">
+        <form id="cms">
+          <div class="form-group">
+            <label for="title">New Item:</label>
+            <input type="text" class="form-control" id="title">
+            <br />
+            <label for="body">Description:</label>
+            <textarea class="form-control" rows="10" id="body"></textarea>
+            <div class="form-group">
+              <label for="category">Select Category:</label>
+              <select class="custom-select" id="category">
+                 <option selected value="">All Categories</option>
+                  <option value="Outerware">Outerware</option>
+                  <option value="Shirts">Shirts</option>
+                  <option value="Pants">Pants</option>
+                  <option value="Shoes">Shoes</option>
+                  <option value="Ties">Ties</option>
+                  <option value="Socks">Socks</option>
+                  <option value="Accesories">Accesories</option>
+                  <option value="Fabrics">Fabrics</option>
+                  <option value="Materials">Materials</option>
+
+
+              </select>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-success submit btn-lg">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="clearfix bottom">&copy; Copyright 2018 John McKay&trade;</footer>
+  <!-- Custom Script -->
+  <script src="js/cms.js" type="text/javascript"></script>
+
+</body>
+
+</html>
